@@ -159,3 +159,6 @@ NEXT_PUBLIC_GA_ID=your-google-analytics-id
 ## License
 
 This project is proprietary and confidential.
+```
+
+</rewritten_file>
