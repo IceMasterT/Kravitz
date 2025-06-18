@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "npm run build && netlify deploy --prod --dir=out",
+    "deploy:cloudflare": "npm run build && wrangler pages deploy out --project-name=kravitz-dentistry",
+    "deploy:static": "npm run deploy"
   },
   "dependencies": {
     "next": "14.1.0",
