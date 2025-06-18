@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://kravitzdentistry.com'),
   title: 'Dr. Joe Kravitz DDS | 3 Minute Implant™ | Emergency Dental Care Rockville MD | Top Doctor 2025',
   description: 'Top Doctor 2025 Dr. Joe Kravitz offers revolutionary 3 Minute Implant™ procedure in Rockville, MD. Emergency dental care, dental implants, and prosthodontic services. Call 301-761-4840.',
   keywords: 'Dr Joe Kravitz, 3 Minute Implant, dental implants Rockville MD, emergency dental care, prosthodontist, Top Doctor 2025, dental implants Maryland, same day dental implants, Rockville dentist, emergency dentist',

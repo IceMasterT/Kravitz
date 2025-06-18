@@ -1,11 +1,11 @@
-name = "kravitz-dentistry"
+name = "kravitz-3min-implants"
 compatibility_date = "2024-01-01"
 
 [env.production]
-name = "kravitz-dentistry"
+name = 'kravitz-3min-implants'
 
 [env.preview]
-name = "kravitz-dentistry-preview"
+name = 'kravitz-3min-implants-preview'
 
 # Pages configuration
 pages_build_output_dir = "out"
@@ -13,7 +13,7 @@ pages_build_output_dir = "out"
 # Environment variables for Cloudflare Pages
 [vars]
 NODE_ENV = "production"
-NEXT_PUBLIC_SITE_URL = "https://kravitzdentistry.com"
+NEXT_PUBLIC_SITE_URL = "serentist.com"
 
 # Custom headers for SEO and security
 [[headers]]
